@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'layout';
+@import 'components';
+@import 'animations';
+
+/* Estilos generales */
+body {
+  font-family: $font-stack;
+  background-color: $light-color;
+  color: $text-color;
+}
